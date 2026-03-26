@@ -2,7 +2,7 @@
 const images = {
     background: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='430' height='900' viewBox='0 0 430 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230a1420'/%3E%3Cstop offset='100%25' stop-color='%23000d1a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='430' height='900' fill='url(%23a)'/%3E%3Cpath d='M0,50 L430,70 M0,100 L430,120 M0,150 L430,170 M0,200 L430,220 M0,250 L430,270 M0,300 L430,320 M0,350 L430,370 M0,400 L430,420 M0,450 L430,470 M0,500 L430,520 M0,550 L430,570 M0,600 L430,620 M0,650 L430,670 M0,700 L430,720 M0,750 L430,770 M0,800 L430,820 M0,850 L430,870' stroke='rgba(0,247,255,0.1)' stroke-width='1' fill='none'/%3E%3C/svg%3E",
     router: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='70' viewBox='0 0 80 60'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%231a2a40'/%3E%3Cstop offset='100%25' stop-color='%230c1a2f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' width='80' height='70' rx='10' fill='url(%23a)'/%3E%3Crect x='0' y='0' width='80' height='15' rx='10' fill='%230c1a2f'/%3E%3Ccircle cx='20' cy='25' r='5' fill='%2300ff8c'/%3E%3Ccircle cx='40' cy='25' r='5' fill='%2300f7ff'/%3E%3Ccircle cx='60' cy='25' r='5' fill='%23ff296d'/%3E%3Crect x='-5' y='-20' width='5' height='20' fill='%232c3e50'/%3E%3Crect x='80' y='-20' width='5' height='20' fill='%232c3e50'/%3E%3Ctext x='40' y='50' text-anchor='middle' fill='%239b59b6' font-family='Arial' font-weight='bold' font-size='16'%3EVPONE%3C/text%3E%3C/svg%3E",
-    rkn: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='80' viewBox='0 0 70 80'%3E%3Crect x='0' y='0' width='70' height='80' rx='10' fill='%23c0392b'/%3E%3Ctext x='35' y='65' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='16'%3EРКН%3C/text%3E%3Ccircle cx='35' cy='25' r='8' fill='none' stroke='white' stroke-width='2'/%3E%3Cline x1='30' y1='25' x2='40' y2='25' stroke='white' stroke-width='2'/%3E%3C/svg%3E",
+    rkn: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='70' height='80' viewBox='0 0 70 80'%3E%3Crect x='0' y='0' width='70' height='80' rx='10' fill='%23c0392b'/%3E%3Ctext x='35' y='65' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='16'%3EГГГ%3C/text%3E%3Ccircle cx='35' cy='25' r='8' fill='none' stroke='white' stroke-width='2'/%3E%3Cline x1='30' y1='25' x2='40' y2='25' stroke='white' stroke-width='2'/%3E%3C/svg%3E",
     meta: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='70' viewBox='0 0 60 70'%3E%3Crect x='0' y='0' width='60' height='70' rx='10' fill='%231877f2'/%3E%3Ctext x='30' y='65' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='16'%3EMETA%3C/text%3E%3Cpath d='M25,20 L35,30 L30,30 L30,35 L25,35 L25,20 Z' fill='white'/%3E%3C/svg%3E",
     google: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75' viewBox='0 0 75 75'%3E%3Crect x='0' y='0' width='75' height='75' rx='10' fill='%23ea4335'/%3E%3Ctext x='37.5' y='65' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='16'%3EGOOGLE%3C/text%3E%3Ccircle cx='37.5' cy='25' r='10' fill='none' stroke='white' stroke-width='2' stroke-dasharray='15,10'/%3E%3Cline x1='37.5' y1='15' x2='37.5' y2='35' stroke='white' stroke-width='2'/%3E%3C/svg%3E",
     max: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='65' height='85' viewBox='0 0 65 85'%3E%3Crect x='0' y='0' width='65' height='85' rx='10' fill='%23e50914'/%3E%3Ctext x='32.5' y='65' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold' font-size='16'%3EMAX%3C/text%3E%3Cpath d='M25,20 L30,25 L30,35 L35,30 L40,35 L40,20 Z' fill='white'/%3E%3C/svg%3E",
@@ -592,7 +592,7 @@ class Obstacle {
             this.height = 80;
             this.y = groundY - this.height;
             this.color = '#c0392b';
-            this.text = 'РКН';
+            this.text = 'ГГГ';
         } else if (type === 'meta') {
             this.width = 70;
             this.height = 80;
@@ -616,7 +616,7 @@ class Obstacle {
             this.height = 80;
             this.y = groundY - this.height - 120; // Выше обычного
             this.color = '#c0392b';
-            this.text = 'РКН';
+            this.text = 'ГГГ';
             this.isFlying = true;
         } else if (type === 'meta_flying') {
             this.width = 70;
